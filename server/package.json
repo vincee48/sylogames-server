@@ -1,0 +1,22 @@
+{
+  "name": "sylo-games-server",
+  "version": "0.0.1",
+  "description": "Game Server API for Sylo Games",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vincent Lo",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "mysql": "^2.10.2",
+    "path": "^0.12.7",
+    "sequelize": "^3.23.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
